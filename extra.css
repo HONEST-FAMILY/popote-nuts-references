@@ -144,3 +144,5 @@ table.entry td:last-child a { color: #c9c1b3; font-size: 13px; }
   table.entry td[data-label]::before { content: attr(data-label); display: block; font-size: 12px; color: var(--mute); margin-bottom: 2px; }
   table.entry td:first-child { font-size: 16px; }
 }
+
+.cta.ghost { background: transparent; color: var(--fg); border: 1px solid rgba(244,241,234,.55); margin-left: 6px; }
